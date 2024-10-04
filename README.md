@@ -1,7 +1,7 @@
 # Podstawy programowania 1 (PRM1T) - semestr 24Z
 ## Materiały pomocnicze do wykładu
 
-1. Podstawowe typy danych, operatory, instrukcje
+1. [Podstawowe typy danych, operatory, instrukcje](01-typy_danych_operatory_instrukcje.ipynb)
 1. Systemy kontroli wersji - `git`
 1. Kolekcje
 1. Funkcje
