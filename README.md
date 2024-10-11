@@ -2,8 +2,8 @@
 ## Materiały pomocnicze do wykładu
 
 1. [Podstawowe typy danych, operatory, instrukcje](01-typy_danych_operatory_instrukcje.ipynb)
-1. [Systemy kontroli wersji - `git`](02-kolekcje.ipynb)
-1. Kolekcje
+1. Systemy kontroli wersji - `git`
+1. [Kolekcje](02-kolekcje.ipynb)
 1. Funkcje
 1. Przetwarzanie tekstów
 1. Operacje wejścia-wyjścia
