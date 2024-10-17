@@ -3,8 +3,8 @@
 
 1. [Podstawowe typy danych, operatory, instrukcje](01-typy_danych_operatory_instrukcje.ipynb)
 1. Systemy kontroli wersji - `git`
-1. [Kolekcje](02-kolekcje.ipynb)
-1. Funkcje
+1. [Kolekcje](03-kolekcje.ipynb)
+1. [Funkcje](04-funkcje.ipynb)
 1. Przetwarzanie tekstów
 1. Operacje wejścia-wyjścia
 1. Programowanie obiektowe
