@@ -5,7 +5,7 @@
 1. Systemy kontroli wersji - `git`
 1. [Kolekcje](03-kolekcje.ipynb)
 1. [Funkcje](04-funkcje.ipynb)
-1. Przetwarzanie tekstów
+1. [Przetwarzanie tekstów](05-string.ipynb)
 1. Operacje wejścia-wyjścia
 1. Programowanie obiektowe
 1. Wyjątki
