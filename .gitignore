@@ -3,4 +3,4 @@
 /venv
 
 /PycharmProject/.idea
-
+__pycache__
