@@ -1,0 +1,11 @@
+kierunek                                    limit miejsc
+                                    semestr zimowy	semestr letni 
+Automatyka i robotyka                               60	-
+Cyberbezpieczenstwo	                            60	-
+Elektronika                                        150	60
+Informatyka	                                   150	30
+Inzynieria biomedyczna                              45	-
+Inzynieria Internetu Rzeczy	                    30	-
+Telekomunikacja                                    150	60
+Computer Science (studia w jez. angielskim)	    30	30
+Telecommunications (studia w jez. angielskim)       30	30
