@@ -13,6 +13,7 @@ def silnia_rekur(n: int) -> int:
         return n * silnia_rekur(n - 1)
 
 
-for n in range(10):
-    print(n, silnia_iter(n), silnia_rekur(n))
+if __name__ == "__main__":
+    for n in range(10):
+        print(n, silnia_iter(n), silnia_rekur(n))
 
