@@ -6,7 +6,7 @@
 1. [Kolekcje](03-kolekcje.ipynb)
 1. [Funkcje](04-funkcje.ipynb)
 1. [Przetwarzanie tekstów](05-string.ipynb)
-1. Operacje wejścia-wyjścia
+1. [Operacje wejścia-wyjścia](06-we_wy.ipynb)
 1. Programowanie obiektowe
 1. Wyjątki
 1. Struktury danych I
