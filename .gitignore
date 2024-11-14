@@ -2,3 +2,5 @@
 /.virtual_documents
 /venv
 .ipynb_checkpoints
+/data/*.bin
+/data/przedmioty.*
