@@ -6,13 +6,30 @@ class Element:
 
 class LinkedList:
     def __init__(self):
-        pass
+        self.head = None
 
     def __len__(self):
-        return 0
+        curr_elem = self.head
+        num_elem = 0
+        while curr_elem is not None:
+            num_elem += 1
+            curr_elem = curr_elem.next
+        return num_elem
 
     def append(self, elem):
-        pass
+        assert isinstance(elem, Element)
+        assert elem.next is None
+
+        if self.head is None:
+            self.head = elem
+            return
+
+        curr_elem = self.head
+        while True:
+            if curr_elem.next is None:
+                break
+            curr_elem = curr_elem.next
+        curr_elem.next = elem
 
     def __getitem__(self, index):
         pass
