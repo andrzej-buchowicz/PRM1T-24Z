@@ -32,7 +32,12 @@ class LinkedList:
         curr_elem.next = elem
 
     def __getitem__(self, index):
-        pass
+        if index < 0 or index >= self.__len__():
+            raise IndexError("Index out of bounds")
+        curr_elem = self.head
+        for i in range(index):
+            curr_elem = curr_elem.next
+        return curr_elem.value
 
     def __iter__(self):
         pass
@@ -44,6 +49,18 @@ class LinkedList:
         return -1
 
 
+def main():
+    llist = LinkedList()
+    llist.append(Element('a'))
+    llist.append(Element('b'))
+    llist.append(Element('c'))
+
+    for index in range(len(llist)):
+        print(index, llist[index])
+
+
+if __name__ == "__main__":
+    main()
 
 
 
