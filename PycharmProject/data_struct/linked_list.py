@@ -5,8 +5,8 @@ class Element:
 
 
 class LinkedList:
-    def __init__(self):
-        self.head = None
+    def __init__(self, head=None):
+        self.head = head
         self.index = 0
 
     def __len__(self):
@@ -52,6 +52,14 @@ class LinkedList:
         return elem_value
 
     def find(self, elem):
+        assert isinstance(elem, Element)
+        index = 0
+        curr_elem = self.head
+        while curr_elem is not None:
+            if curr_elem.value == elem.value:
+                return index
+            curr_elem = curr_elem.next
+            index += 1
         return -1
 
 
@@ -61,17 +69,19 @@ def main():
     llist.append(Element('b'))
     llist.append(Element('c'))
 
-    print("Operator indeksowania")
     for index in range(len(llist)):
         print(index, llist[index])
 
-    print("\nIterator")
     for index, elem in enumerate(llist):
         print(index, elem)
+
+    for value in ['a', 'b', 'c', 'd']:
+        print(value, llist.find(Element(value)))
 
 
 if __name__ == "__main__":
     main()
+
 
 
 
