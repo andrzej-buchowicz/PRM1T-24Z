@@ -12,6 +12,6 @@
 1. Struktury danych I
    * [pomiar czasu wykonania algorytmu](10.2-pomiar_czasu.ipynb)
 1. Struktury danych II
-1. Obliczenia numeryczne - pakiet `numpy`
-1. Wizualizacja danych - pakiet `matplotlib`
+1. [Obliczenia numeryczne - pakiet `numpy`](12-numpy.ipynb)
+1. [Wizualizacja danych - pakiet `matplotlib`](13-matplotlib.ipynb)
 1. Przesyłaniue danych z/do serwisów sieciowych
